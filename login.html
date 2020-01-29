@@ -10,10 +10,12 @@
   <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
   <!--  custom css-->
   <link rel="stylesheet" href="css/main.css">
+  <!--  downloaded fonts-->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <title>Homepage</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
     <a class="navbar-brand" href="index.html">Uber</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,30 +24,29 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html"><i class="fa fa-home">Home</i> <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="about.html"><i class="fa fa-edit">About</i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="signup.html">Sign up</a>
+          <a class="nav-link" href="signup.html"><i class="fa fa-user-plus">Sign up</i></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="login.html">Login</a>
+        <li class="nav-item">
+          <a class="nav-link active" href="login.html"><i class="fa fa-sign-in">Login</i></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
+            <i class="fa fa-inr">Products</i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Volkswagen</a>
+            <a class="dropdown-item" href="#">Ferrari</a>
+            <a class="dropdown-item" href="#">Audi</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-phone">Contact us</i></a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -69,15 +70,19 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Login</button>
     </form>
 
   </div>
 
 
-<footer>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ex.</p>
-</footer>
+  <footer>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ex.</p>
+    <p>Contact us on <a href="">0708084863</a></p>
+    <p>or</p>
+    <p>Email us <a href="">freandsfor@gmail.com</a></p>
+  </footer>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
