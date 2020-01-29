@@ -47,11 +47,12 @@ footer{
   border-radius: 10px;
   box-shadow: 3px 3px 3px 3px #cccccc;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .auth-signup img{
   width: 300px;
   height: 300px;
-  margin-left: 6px;
+  margin-left: 20%;
   border-radius: 50%;
 }
 .auth-signup .content-title{
